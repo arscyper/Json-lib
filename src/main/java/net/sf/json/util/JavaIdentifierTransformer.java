@@ -18,7 +18,7 @@ package net.sf.json.util;
 
 import net.sf.json.JSONException;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * Transforms a string into a valid Java identifier.<br>

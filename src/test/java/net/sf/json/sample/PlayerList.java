@@ -18,8 +18,8 @@ package net.sf.json.sample;
 
 import java.util.ArrayList;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
-import org.apache.commons.lang.builder.ToStringStyle;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
  * @author Andres Almiray <aalmiray@users.sourceforge.net>

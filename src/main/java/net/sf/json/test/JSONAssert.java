@@ -20,7 +20,7 @@ import java.util.Iterator;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import junit.framework.Assert;
 import net.sf.ezmorph.Morpher;

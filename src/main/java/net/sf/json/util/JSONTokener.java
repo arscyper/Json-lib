@@ -21,7 +21,7 @@ import net.sf.json.JSONNull;
 import net.sf.json.JSONObject;
 import net.sf.json.JsonConfig;
 import net.sf.json.regexp.RegexpUtils;
-import org.apache.commons.lang.math.NumberUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 
 
 /**

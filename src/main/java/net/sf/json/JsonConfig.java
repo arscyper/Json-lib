@@ -43,8 +43,8 @@ import net.sf.json.util.PropertyExclusionClassMatcher;
 import net.sf.json.util.PropertyFilter;
 import net.sf.json.util.PropertySetStrategy;
 
-import org.apache.commons.collections.map.MultiKeyMap;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.collections4.map.MultiKeyMap;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * Utility class that helps configuring the serialization process.
@@ -1362,11 +1362,11 @@ public class JsonConfig {
     * @param beanClass the class to which the property may belong
     * @param propertyType the type of the property
     */
-   public void unregisterJsonValueProcessor( Class beanClass, Class propertyType ) {
+/*   public void unregisterJsonValueProcessor( Class beanClass, Class propertyType ) {
       if( beanClass != null && propertyType != null ) {
          beanTypeMap.remove( beanClass, propertyType );
       }
-   }
+   }*/
 
    /**
     * Removes a JsonValueProcessor.<br>
@@ -1375,11 +1375,11 @@ public class JsonConfig {
     * @param beanClass the class to which the property may belong
     * @param key the name of the property which may belong to the target class
     */
-   public void unregisterJsonValueProcessor( Class beanClass, String key ) {
+/*   public void unregisterJsonValueProcessor( Class beanClass, String key ) {
       if( beanClass != null && key != null ) {
          beanKeyMap.remove( beanClass, key );
       }
-   }
+   }*/
 
    /**
     * Removes a JsonValueProcessor.<br>

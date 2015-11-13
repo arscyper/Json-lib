@@ -41,7 +41,7 @@ import net.sf.json.processors.JsonVerifier;
 import net.sf.json.util.JSONTokener;
 import net.sf.json.util.JSONUtils;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * A JSONArray is an ordered sequence of values. Its external text form is a

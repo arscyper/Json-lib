@@ -32,8 +32,8 @@ import nu.xom.Node;
 import nu.xom.ProcessingInstruction;
 import nu.xom.Serializer;
 import nu.xom.Text;
-import org.apache.commons.lang.ArrayUtils;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

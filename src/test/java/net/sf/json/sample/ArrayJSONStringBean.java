@@ -18,7 +18,7 @@ package net.sf.json.sample;
 
 import net.sf.json.JSONString;
 
-import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang3.ArrayUtils;
 
 /**
  * @author Andres Almiray <aalmiray@users.sourceforge.net>
